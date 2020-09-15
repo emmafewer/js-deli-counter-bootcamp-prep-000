@@ -13,6 +13,12 @@ function nowServing() {
   }
 }
 
+function currentLine(NewLine) {
+    var line = []
+    if (NewLine.length === 0) {
+      return "The line is currently empty."
+    } else {
+
 function currentLine() {
   
 }
