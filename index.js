@@ -17,12 +17,7 @@ function nowServing(currLine) {
   if (currLine.length === 0) {
     return "There is nobody waiting to be served!"
   } else {
-      for(var i = 0; i < NewLine.length; i++) {
-        line += (i + 1) + ". " + NewLine[i] + ", "
-      }
-      line = line.slice(0, line.length-2)
-      return "The line is currently: " + line
-    }
+   
 
 function currentLine(NewLine) {
     var line = []
